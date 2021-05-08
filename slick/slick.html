@@ -1,0 +1,63 @@
+<div class="main_section_1">    
+  <div class="section"> 
+    <div class="dj_slider slider_1_top">  
+
+      <div class="foot_btn">              
+        <ul class="inner">
+          <li class="btn_prev"><img src="images/main/slider_2_prev_btn.png"/></li>
+          <li class="btn_next"><img src="images/main/slider_2_next_btn.png"/></li>
+        </ul>
+      </div>
+
+      <div class="slider_tag"></div> 
+
+      <div class="slider_1">     
+        <div class="slick-list">
+          <div class="slick-track">
+            <!--★ 1번 이미지 ★-->
+            <div>
+              <img src="images/main/main_section_1__img.jpg" id="slider_1_img" alt="첫번째이미지"/>
+            </div>
+            <!--★ 2번 이미지 ★-->
+            <div>
+              <img src="images/main/main_section_2__img.jpg" id="slider_1_img" alt="두번째이미지"/>
+            </div>
+            <!--★ 3번 이미지 ★-->
+            <div>
+              <img src="images/main/main_section_3__img.jpg" id="slider_1_img" alt="세번째이미지"/>
+            </div>      
+          </div> 
+        </div>               
+      </div>  
+
+    </div>  
+  </div>  
+</div>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>             
+<script type="text/javascript" src="js/slick.min.js"></script>
+
+<script type="text/javascript">      
+  $('.slider_1').slick({  
+    prevArrow: $('.btn_prev'),
+    nextArrow: $('.btn_next'),
+    autoplay: true,
+    autoplaySpeed: 5000, // 5s
+    dots: true,
+    arrow: true,
+    infinite: true,
+    fade: true,
+    speed: 400,               
+    cssEase: 'linear',
+    accessibility: false,
+    pauseOnHover: false,                
+  });
+</script> 
+
+<script type="text/javascript">
+  var $status = $('.slider_tag span');
+  var $slickElement = $('.slider_1_top');
+  $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+  var i = (currentSlide ? currentSlide : 0) + 1;
+  $status.text(i + ' / ' + slick.slideCount);});   
+</script> 

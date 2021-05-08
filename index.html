@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글로오아시스</title>
+
+  <!-- ico -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/common/glowoasis_favicon.png" />
+
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+ 
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/common.js"></script>
+
+  <script src="js/modernizr.custom.js"></script>
+  
+</head>
+<body>
+  <!----------------- header ----------------->
+  <header class="header"> 
+    <div class="header-top">
+      <div class="top-wrap">
+        <p class="center-num">C/S CENTER 070-5222-8446</p>
+        <div class="search-area">
+          <img src="images/common/top_menu_search_icon.jpg" alt="search icon">
+        </div>
+        <ul class="top-menu">
+          <li><a href="#">login</a></li>
+          <li><a href="#">join</a></li>
+          <li class="cart"><a href="#">cart</a></li>
+          <li><a href="#">order</a></li>
+          <li><a href="#">my page</a></li>
+        </ul>
+        
+      </div><!-- top-menu -->
+    </div><!-- header-top -->
+    
+    <div class="header-inner">
+      <div class="bottom-wrap">
+
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/common/header_logo.png" alt="header logo image">
+          </a>
+        </div><!-- logo -->
+
+        <ul class="header-gnb">
+          <li><a href="#">shop</a>
+            <div class="sub-gnb">
+              <ul class="sub-ul">
+                  <li><a href="#">best</a></li>
+                  <li><a href="#">cleanser</a></li>
+                  <li><a href="#">skincare</a></li>
+                  <li><a href="#">special kit</a></li>
+                  <li><a href="#">goods</a></li>
+              </ul>
+              <div class="sub-box-img">
+                <a href="#"><img src="images/common/category_item_img_1.jpg"/></a>
+              </div>
+            </div>  
+          </li>
+          <li><a href="#">community</a>
+            <div class="sub-gnb">
+              <ul class="sub-ul">
+                  <li><a href="#">membership</a></li>
+                  <li><a href="#">Q&amp;A</a></li>
+                  <li><a href="#">FAQ</a></li>
+              </ul>
+              <div class="sub-box-img">
+                <a href="#"><img src="images/common/community_img.jpg"/></a>
+              </div>
+            </div> 
+          </li>
+          <li><a href="#">review</a></li>
+          <li><a href="#">event</a></li>
+          <li><a href="#">brand</a>
+            <div class="sub-gnb">
+              <ul class="sub-ul">
+                  <li><a href="#">story</a></li>
+                  <li><a href="#">magazine</a></li>
+                  <li><a href="#">news</a></li>
+              </ul>
+              <div class="sub-box-img">
+                <a href="#"><img src="images/common/brand_img.jpg"/></a>
+              </div>
+            </div> 
+          </li>
+        </ul> 
+      </div><!-- header-inner -->      
+
+      <div class="coupon-down">
+        <a href="#">
+          10% OFF COUPON <img src="images/common/download_icon.jpg" alt="coupon download icon">
+        </a>
+      </div><!-- coupon-down -->
+
+      </div><!-- bottom-wrap -->
+    </div><!--header-inner-->
+  </header>
+  <!----------------- header ----------------->
+
+  <div class="search-slide">
+    <form action="get" id="search-form">
+      <fieldset>
+        <span>검색</span>
+        <input type="text" id="keyword">
+        <input type="image" id="go-img" src="images/common/search_btn_img.png" onclick="return false;">
+        <div class="close-btn">
+          <a href="#">X</a>
+        </div>
+      </fieldset>
+    </form>
+
+    <div class="best-keyword">
+      <span>추천검색어</span>
+      <ul>
+        <li><a href="#">글로우샷</a></li>
+        <li><a href="#">글로우버스트</a></li>
+        <li><a href="#">밀크듀</a></li>
+        <li><a href="#">메이크업멜트</a></li>
+        <li><a href="#">클라우드클렌즈</a></li>
+        <li><a href="#">파우더포어펙트</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!------------ main visual slide ------------>
+  <div class="main-visual-wrap">
+    <div class="main-slide-wrap">
+      <div class="main-slide">
+        <ul id="cbp-bislideshow" class="cbp-bislideshow">
+          <li><a href="#"><img src="images/main/main_section_1__img.jpg" alt="mainslide image1"></a></li>
+          <li><a href="#"><img src="images/main/main_section_2__img.jpg" alt="mainslide image2"></a></li>
+          <li><a href="#"><img src="images/main/main_section_3__img.jpg" alt="mainslide image3"></a></li>
+        </ul>
+
+        <div id="cbp-bicontrols" class="cbp-bicontrols">
+          <span class="cbp-biprev"><img src="images/main/slider_2_prev_btn.png" alt="main slide prev btn"></span>
+          <span class="cbp-binext"><img src="images/main/slider_2_next_btn.png" alt="main slide prev btn"></span>
+        </div>
+      </div>
+    </div>
+  </div><!-- main-visual-wrap -->
+  <!------------ main visual slide ------------>
+
+  <!----------- product ----------->
+  <div class="product-wrap">
+    <div class="product-title">
+      <h2>product</h2>
+      <div class="title-deco-line"></div>
+      <p>
+        비건 프로바이오스틱과 보검 선인장이 만나 더욱 특별한 
+        <br>glowoasis의 첫 번째 컬렉션을 만나보세요.
+      </p>
+    </div><!-- product-title -->
+
+    <div class="product">
+      <ul class="item-top-wrap">
+        <li class="itemBox itemBox_01">
+          <a href="#">
+            <img src="images/main/product_item_01.png" alt="product image1">
+            <h3 class="name">글로우샷</h3>
+            <p class="summary">수퍼차지드 하이드레이팅 세럼</p>
+            <p class="price">46,000원</p>
+            <div class="best-item"><img src="images/main/best_item.png" alt="best item image"></div>
+          </a>
+
+          <ul class="product-option">
+            <li><a href="#">
+              <img src="images/main/product_cart_icon.png" alt="product cart image">
+              <span>장바구니</span>
+            </a></li>
+            <li><a href="#">
+              <img src="images/main/product_search_icon.png" alt="product icon image">
+              <span>확대보기</span>
+            </a></li>
+            <li><a href="#">
+              <img src="images/main/product_pop_icon.png" alt="product pop image">
+              <span>새창보기</span>
+            </a></li>
+          </ul>
+
+        </li>
+
+        <li class="itemBox itemBox_02">
+          <a href="#">
+            <img src="images/main/product_item_02.png" alt="product image2">
+            <h3 class="name">밀크듀</h3>
+            <p class="summary">pH 밸런싱 모이스처 밀크 토너</p>
+            <p class="price">39,000원</p>
+            <div class="best-item"><img src="images/main/best_item.png" alt="best item image"></div>
+          </a>
+
+          <ul class="product-option">
+            <li><a href="#">
+              <img src="images/main/product_cart_icon.png" alt="product cart image">
+              <span>장바구니</span>
+            </a></li>
+            <li><a href="#">
+              <img src="images/main/product_search_icon.png" alt="product icon image">
+              <span>확대보기</span>
+            </a></li>
+            <li><a href="#">
+              <img src="images/main/product_pop_icon.png" alt="product pop image">
+              <span>새창보기</span>
+            </a></li>
+          </ul>
+
+        </li>
+
+        <li class="itemBox itemBox_03">
+          <a href="#">
+            <img src="images/main/product_item_03.png" alt="product image3">
+            <h3 class="name">글로우버스트</h3>
+            <p class="summary">인텐스 하이드레이션 부스팅 크림</p>
+            <p class="price">46,000원</p>
+            <!-- <div class="best-item">best</div> -->
+          </a>
+
+          <ul class="product-option">
+            <li><a href="#">
+              <img src="images/main/product_cart_icon.png" alt="product cart image">
+              <span>장바구니</span>
+            </a></li>
+            <li><a href="#">
+              <img src="images/main/product_search_icon.png" alt="product icon image">
+              <span>확대보기</span>
+            </a></li>
+            <li><a href="#">
+              <img src="images/main/product_pop_icon.png" alt="product pop image">
+              <span>새창보기</span>
+            </a></li>
+          </ul>
+
+        </li>
+        
+        <li class="itemBox itemBox_04">
+          <a href="#">
+            <img src="images/main/product_item_04.png" alt="product image4">
+            <h3 class="name">메이크업멜트</h3>
+            <p class="summary">클렌징 밤</p>
+            <p class="price">39,000원</p>
+            <div class="best-item"><img src="images/main/best_item.png" alt="best item image"></div>
+          </a>
+
+          <ul class="product-option">
+            <li><a href="#">
+              <img src="images/main/product_cart_icon.png" alt="product cart image">
+              <span>장바구니</span>
+            </a></li>
+            <li><a href="#">
+              <img src="images/main/product_search_icon.png" alt="product icon image">
+              <span>확대보기</span>
+            </a></li>
+            <li><a href="#">
+              <img src="images/main/product_pop_icon.png" alt="product pop image">
+              <span>새창보기</span>
+            </a></li>
+          </ul>
+
+        </li>
+      </ul>
+
+      <ul class="item-bottom-wrap">
+        <li class="itemBox itemBox_05">
+          <a href="#">
+            <img src="images/main/product_item_05.png" alt="product image5">
+            <h3 class="name">클라우드클렌즈</h3>
+            <p class="summary">클라우드 휩드 폼 클렌저</p>
+            <p class="price">29,000원</p>
+            <!-- <div class="best-item">best</div> -->
+          </a>
+
+          <ul class="product-option">
+            <li><a href="#">
+              <img src="images/main/product_cart_icon.png" alt="product cart image">
+              <span>장바구니</span>
+            </a></li>
+            <li><a href="#">
+              <img src="images/main/product_search_icon.png" alt="product icon image">
+              <span>확대보기</span>
+            </a></li>
+            <li><a href="#">
+              <img src="images/main/product_pop_icon.png" alt="product pop image">
+              <span>새창보기</span>
+            </a></li>
+          </ul>
+
+        </li>
+
+        <li class="itemBox itemBox_06">
+          <a href="#">
+            <img src="images/main/product_item_06.png" alt="product image6">
+            <h3 class="name">파우더포어펙트</h3>
+            <p class="summary">파우더 투 폼 엔자임 클렌저</p>
+            <p class="price">48,000원</p>
+            <!-- <div class="best-item">best</div> -->
+          </a>
+
+          <ul class="product-option">
+            <li><a href="#">
+              <img src="images/main/product_cart_icon.png" alt="product cart image">
+              <span>장바구니</span>
+            </a></li>
+            <li><a href="#">
+              <img src="images/main/product_search_icon.png" alt="product icon image">
+              <span>확대보기</span>
+            </a></li>
+            <li><a href="#">
+              <img src="images/main/product_pop_icon.png" alt="product pop image">
+              <span>새창보기</span>
+            </a></li>
+          </ul>
+
+        </li>
+
+        <li class="itemBox itemBox_07">
+          <a href="#">
+            <img src="images/main/product_item_07.png" alt="product image7">
+            <h3 class="name">글로우 투 고 kit</h3>
+            <p class="summary">휴대용 전 제품 미니 kit</p>
+            <p class="price">89,000원</p>
+            <!-- <div class="best-item">best</div> -->
+          </a>
+
+          <ul class="product-option">
+            <li><a href="#">
+              <img src="images/main/product_cart_icon.png" alt="product cart image">
+              <span>장바구니</span>
+            </a></li>
+            <li><a href="#">
+              <img src="images/main/product_search_icon.png" alt="product icon image">
+              <span>확대보기</span>
+            </a></li>
+            <li><a href="#">
+              <img src="images/main/product_pop_icon.png" alt="product pop image">
+              <span>새창보기</span>
+            </a></li>
+          </ul>
+
+        </li>
+
+        <li class="itemBox itemBox_08">
+          <a href="#">
+            <img src="images/main/product_item_08.png" alt="product image8">
+            <h3 class="name">크렌즈 듀오 kit</h3>
+            <p class="summary">휴대용 메이크업벨트 & 클라우드 클렌즈 미니 kit</p>
+            <p class="price">34,000원</p>
+            <!-- <div class="best-item">best</div> -->
+          </a>
+          
+          <ul class="product-option">
+            <li><a href="#">
+              <img src="images/main/product_cart_icon.png" alt="product cart image">
+              <span>장바구니</span>
+            </a></li>
+            <li><a href="#">
+              <img src="images/main/product_search_icon.png" alt="product icon image">
+              <span>확대보기</span>
+            </a></li>
+            <li><a href="#">
+              <img src="images/main/product_pop_icon.png" alt="product pop image">
+              <span>새창보기</span>
+            </a></li>
+          </ul>
+
+        </li>
+
+      </ul>
+    </div><!--product-->
+  </div><!--product-wrap-->
+  <!----------- product ----------->
+
+  <!----------- main banner 3 ----------->
+  <div class="main-banner-wrap">
+    <ul class="main-banner">
+      <li class="banner01">
+        <a href="#">
+          <img src="images/main/main_banner_01.jpg" alt="banner image01">
+          <p>welcome to your oasis</p>
+          <span>회원가입하고 카카오 채널 추가하면 쿠폰과 적립금을 드려요!</span>
+        </a>
+      </li>
+      <li class="banner02">
+        <a href="#">
+          <img src="images/main/main_banner_02.jpg" alt="banner image02">
+          <p>we are vegan!</p>
+          <span>비건소사이어티 인증을 받은 glowoasis의 제품을 만나보세요.</span>
+        </a>
+      </li>
+      <li class="banner03">
+        <a href="#">
+          <img src="images/main/main_banner_03.jpg" alt="banner image03">
+          <p>glowoasis for earth!</p>
+          <span>환경을 생각하는 glowoasis의 eco-friendly 패키지</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!----------- main banner 3 ----------->
+
+
+  <!----------- glowoasis video ----------->
+  <div class="glow-video-wrap">
+    <div class="video-title">
+      <h2>glowoasis video</h2>
+      <div class="title-deco-line"></div>
+      <p>글로오아시스의 무드를 영상으로 느껴보세요.</p>
+    </div><!-- video-title -->
+
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/cgSqovdcG2c?autoplay=1&mute=1&rel=0&controls=0&showinfo=0&loop=1&start=3&playlist=cgSqovdcG2c" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <!----------- glowoasis video ----------->
+
+
+  <!----------- story ----------->
+<div class="inner-bg">
+  <div class="story-wrap">
+    <div class="story-bg">
+      <h2>story</h2>
+      <div class="title-deco-line"></div>
+    </div>
+
+    <div class="story-container">
+      <div class="story-img">
+        <a href="#"><img src="images/main/story_banner_img.jpg" alt="story banner image"></a>
+      </div>
+
+      <div class="story-ment">
+        <h2>clean&effective</h2>
+        <p>
+          우리의 화장대를 가득 채운 화장품들 중에서 정말 필요한 제품은 몇 가지나 될까요? <br>
+          glowoasis는 깨끗하며 효과적인 소수의 히어로 제품으로 우리의 화장대를 변화 시<br>
+          키고자 해요. 미니멀한 루틴으로도 충분히 효과적인 스킨케어 라인을 소개할게요.
+        </p>
+        <a href="#">glowoasis story</a>
+      </div>
+    </div>
+  </div>
+  <!----------- story ----------->
+
+
+  <!----------- magazine ----------->
+  <div class="magazine-wrap">
+    <div class="magazine-title">
+      <h2>magazine</h2>
+      <div class="magazine-title-deco"></div>
+    </div>
+
+    <div class="magazine-container">
+      <ul>
+        <li>
+          <a href="#">
+            <img src="images/main/magazine_img01.jpg" alt="magazine image1">
+            <h3 class="name">what is pH balance?</h3>
+            <span class="txt">글로오아시스가 제안하는 pH 밸런스 회복 솔루션으로 <br> 건강한 피부 컨디션을 만들어보세요!</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/main/magazine_img02.jpg" alt="magazine image2">
+            <h3 class="name">Tasty Vegan Life : 초식마녀 인터뷰 2</h3>
+            <span class="txt">할 수 있는 것부터 해 나가다 보면 매일 조금 더 비건이<br>되어 있을거예요.</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/main/magazine_img03.jpg" alt="magazine image3">
+            <h3 class="name">Tasty Vegan Life : 초식마녀 인터뷰 1</h3>
+            <span class="txt">글로오아시스의 건강한 브랜드 가치를 나누는 앰버서<br>더, 글로우메이트 초식마녀님을 만나보세요.</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/main/magazine_img04.jpg" alt="magazine image4">
+            <h3 class="name">winter skin guardian</h3>
+            <span class="txt">피부 보습에 더욱 신경써야하는 겨울이 왔어요! 겨울에<br>도 반짝반짝 빛날 수 있는 glow tip을 알려줄게요.</span>
+          </a>
+        </li>
+      </ul>
+    </div><!--magazine-container-->
+
+    <div class="more-btn">
+      <a href="#">게시물 더보기</a>
+    </div>
+
+  </div><!--magazine-wrap-->
+</div><!--inner-bg-->
+  <!----------- magazine ----------->
+
+
+  <!----------- instagram ----------->
+  <div class="insta-wrap">
+    <div class="insta-title">
+      <span class="icon-line"></span>
+      <div class="insta-icon">
+        <img src="images/main/insta-icon.jpg" alt="instagram icon image">INSTAGRAM
+      </div>
+      <span class="icon-line"></span>
+    </div>
+
+    <iframe src="https://snapwidget.com/embed/880272" scrolling="no" allowtransparency="true" frameborder="0" ></iframe>
+  </div>
+  <!----------- instagram ----------->
+
+
+  <!----------- footer ----------->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-left">
+        <p class="footer-title">C/S</p>
+        <ul>
+          <li class="tel">070-5222-8446</li>
+          <li class="tel-time">
+            AM 10:00 - PM 5:00 <br>
+            AM 11:30 - PM 1:00 점심시간 <br>
+            *토, 일요일 및 공휴일 휴무입니다.
+          </li>
+          <li class="mail">마케팅/광고 문의 : mj.choi@glowoasis.kr</li>
+        </ul>
+      </div>
+      
+      <div class="footer-center">
+        <p class="footer-title">COMPANY</p>
+        <ul>
+          <li><span>상호</span> 글로오아시스 주식회사 &nbsp; <span>대표</span> 민석기</li>
+          <li><span>사업자등록번호</span> 134-87-39380</li>
+          <li><span>통신판매입 신고</span> 제 2020-서울성동-02206호 <a href="#">[사업자정보확인]</a></li>
+          <li><span>전화</span> 070-5222-8446</li>
+          <li><span>본사주소</span> 서울특별시 성동구 성수동1가 아차산로 49, 206호</li>
+          <li><span>강남지사주소</span> 서울특별시 강남구 테헤란로 528 슈페리어타워 8층</li>
+          <li><span>개인정보관리책임자</span> 민경수 (moverdot@glowoasis.kr)</li>
+        </ul>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-title">BANK</p>
+        <ul>
+          <li><span>하나은행</span> 207-910015-49804</li>
+          <li><span>예금주</span> 글로오아시스 주식회사</li>
+        </ul>
+      </div>
+    </div><!--footer-inner-->
+  </footer>
+
+  <div class="last-wrap">
+    <div class="last-ment">
+      <img src="images/common/cafe24.jpg" alt="cafe24 icon">
+      <img src="images/common/kg.jpg" alt="kg icon">
+      <span>고객님은 안전거래를 위해 결제시 저희 쇼핑몰에서 가입한 구매안전 서비스를 이용하실 수 있습니다.</span>
+    </div>
+
+    <ul class="util-menu">
+      <li><a href="#">이용약관</a></li>
+      <li><a href="#">개인정보취급방침</a></li>
+      <li><a href="#">이용안내</a></li>
+    </ul>
+  </div>
+  <!----------- footer ----------->
+  
+  
+  <!----------- fixed sns menu ----------->
+  <div class="scroll-sns-wrap">
+    <ul>
+      <li><a href="#"><img src="images/common/scroll_kakaoplus.png" alt="kakaoplus채널"></a></li>
+      <li><a href="#"><img src="images/common/scroll_insta.png" alt="instagram"></a></li>
+    </ul>
+  </div>
+  <!----------- fixed sns menu ----------->
+
+  <!----------- fixed top/bottom button ----------->
+  <div class="scroll-top">
+    <img src="images/common/scroll_top_btn.png" alt="top button">
+  </div>
+  <div class="scroll-bottom">
+    <img src="images/common/scroll_bottom_btn.png" alt="bottom button">
+  </div>
+  <!----------- fixed top/bottom button ----------->
+
+
+
+
+
+  <!-------------- main auto slide script ------------->
+  <script src="js/cbpBGSlideshow.min.js"></script>
+  <script src="js/jquery.imagesloaded.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+    $(function() {
+      cbpBGSlideshow.init();
+    });
+  </script>
+  <!-------------- main auto slide script ------------->
+
+  
+</body>
+</html>
