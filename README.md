@@ -1,4 +1,3 @@
-# glowoasis
 # 📌 Glowoasis 클론코딩 (2021)
 
 # 📎url : 
